@@ -16,7 +16,6 @@ def send_welcome(message):
     bot.send_message(message.chat.id, str(text))
 
 
-
 # @bot.message_handler(func=lambda message: True)
 # def echo_all(message):
 #	bot.reply_to(message, message.text)
